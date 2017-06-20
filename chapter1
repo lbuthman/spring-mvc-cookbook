@@ -1,1 +1,9 @@
+- make sure eclipse is EE version, otherwise Maven won't be there
 
+- the path for my java version was Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk
+
+- step 7.3 -> it's not under Window, it's the normal preferences [ commanad + , ]
+
+- step 7.5 -> this step will give you problems because tomcat 8.0 expected instead of 8.5.x
+follow the steps here to fix it
+  -- https://stackoverflow.com/questions/37024876/how-to-use-tomcat-8-5-x-and-tomee-7-x-with-eclipse
