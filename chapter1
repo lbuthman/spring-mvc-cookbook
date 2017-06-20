@@ -15,3 +15,7 @@ Recipe 3
 Recipe 4
   - step 5 -> had to update Maven project to remove red x warning
     -- right click, Maven - Update Project
+    
+  - step 8 -> got an error when trying to Add and Remove
+    -- used this solution and it worked fine
+      -> https://stackoverflow.com/questions/2175709/server-configuration-is-missing-in-eclipse
