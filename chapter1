@@ -3,11 +3,8 @@ Starting over in IntelliJ
 (skipped Recipe 1 and 2)
 
 Recipe 3
-  - right click top directory | New | Module | Maven (leave Create from archtype unchecked) | Next
-  - add GroupId, ArtifactId and Version
-  - for Module name, I used cloudstreetmarket-parent | finish
-  - I clicked Enable-Auto Import when asked by IntelliJ
-  - add the XML listed in the book
+  - there are two projects in this recipe, one for CloudStreetMarket and one for ZipCloud. In Eclipse, these
+  can coexist in the window, but IntelliJ needs separate windows for each project
   
   - create submodules (fail)
     
