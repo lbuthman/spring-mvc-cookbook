@@ -4,11 +4,17 @@ Starting over in IntelliJ
 
 Recipe 3
   - there are two projects in this recipe, one for CloudStreetMarket and one for ZipCloud. In Eclipse, these
-  can coexist in the window, but IntelliJ needs separate windows for each project
-  
-  - create submodules (fail)
+  can coexist in the window, but IntelliJ needs separate windows for each project.
+  - IntelliJ wizard doesn't configure packaging and name, so add them in the pom.xml
+  - After each change to the pom.xml, there will be a prompt to Import Changes. Just click it :)
+  - Note: the SNAPSHOT defaults to 1.0 even when putting 0.0.1. I'm imaging this is not going to be a problem, as
+  long as I stay consistent with 1.0
     
 Recipe 4
+  - The zipcloud-parent pom.xml in the Chapter 1 source code is missing the settings we put in <configuration>
+  tags during the previous Recipe. The book says you should already have everything in <build> from Recipe 3, so
+  just a warning if you decide to copy everything, the pom.xml file is flawed in <build><configuration>.
+
   - step 5 -> had to update Maven project to remove red x warning
     -- right click, Maven - Update Project
     
