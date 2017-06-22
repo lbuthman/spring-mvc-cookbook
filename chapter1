@@ -14,10 +14,13 @@ Recipe 4
   - The zipcloud-parent pom.xml in the Chapter 1 source code is missing the settings we put in <configuration>
   tags during the previous Recipe. The book says you should already have everything in <build> from Recipe 3, so
   just a warning if you decide to copy everything, the pom.xml file is flawed in <build><configuration>.
-
-  - step 5 -> had to update Maven project to remove red x warning
-    -- right click, Maven - Update Project
-    
-  - step 8 -> got an error when trying to Add and Remove
-    -- used this solution and it worked fine
-      -> https://stackoverflow.com/questions/2175709/server-configuration-is-missing-in-eclipse
+  - Once you add the dependencies in the api and webapp pom.xml's, you will get an error. The pom.xml's have a
+  dependency on edu.zipcloud and that is not available. I just commented it out because I'm not sure how to
+  resolve this.
+  - When it's time to add Tomcat use the steps here
+    -> http://geekabyte.blogspot.com/2015/07/how-to-create-war-files-with-intellij.html
+  except, do not use exploaded-war. For the Application context, use /cloudstreetmarket-api and 
+  /cloudstreetmarket-webapp
+  - On the Server tab, change the URL to http://localhost:8080/cloudstreetmarket-webapp/index.html. The one in
+  the book uses http://localhost:8080/portal/index.html and I'm not sure how that happens. Might be due to how
+  the projects are grouped together in Eclipse.
