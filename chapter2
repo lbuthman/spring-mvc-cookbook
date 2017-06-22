@@ -1,3 +1,7 @@
 Recipe 2.1
   - I skipped the git since I think it might just be a stumbling block and, while a useful, necessary skill,
   can be acquired elsewhere.
+  - First step is to update the pom.xml in webapp
+    -> In addition to the code from the chapter, the javax.servlet dependency requires the version & scope
+      <version>3.0.1</version>
+      <scope>provided</scope>
