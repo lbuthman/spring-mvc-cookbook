@@ -8,3 +8,4 @@ Recipe 1
   - If you skip the pulling from git, there are classes in the core module that need to be created. It was
   interesting adding them manually to get a feel for the current state of the app and what kind of data we
   will be using.
+  - Make sure the pom.xml files get updated. There are several changes to be aware of.
