@@ -8,4 +8,9 @@ Recipe 1
   - If you skip the pulling from git, there are classes in the core module that need to be created. It was
   interesting adding them manually to get a feel for the current state of the app and what kind of data we
   will be using.
-  - Make sure the pom.xml files get updated. There are several changes to be aware of.
+  - Make sure the pom.xml, dispatcher-context, and web.xml files get updated. There are several changes to 
+  be aware of.
+  - To launch http://localhost:8080/portal/info/server, I had to use
+    -> http://localhost:8080/cloudstreetmarket-webapp/info/server
+    -> use http://localhost:8080/portal/info/server for Run | Edit configuration | url for open browser
+  
