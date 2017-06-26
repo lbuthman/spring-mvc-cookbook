@@ -13,4 +13,5 @@ Recipe 1
   - To launch http://localhost:8080/portal/info/server, I had to use
     -> http://localhost:8080/cloudstreetmarket-webapp/info/server
     -> use http://localhost:8080/portal/info/server for Run | Edit configuration | url for open browser
+  - DispatchSeverlet is configured in the web.xml
   
